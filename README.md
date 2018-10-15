@@ -1,3 +1,6 @@
-# shopping-list
-- following a tutorial from Traversy Media on youtube
-- Building a shopping list to learn the MERN stack
+# john kim's landing page
+
+## todo
+- a
+- b
+- c
