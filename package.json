@@ -1,7 +1,7 @@
 {
   "name": "landing-page",
   "version": "1.0.0",
-  "description": "Shopping list built with the MERN stack",
+  "description": "landing page for john kim",
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.18.3",
