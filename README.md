@@ -1,4 +1,4 @@
-# john kim's landing page
+# John's Landing Page
 
 ## todo
 - a
