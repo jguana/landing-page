@@ -1,6 +1,12 @@
 # John's Landing Page
 
 ## todo
-- a
-- b
-- c
+- finish routing
+  - about
+  - todo
+  - portfolio & resume
+  - hockey
+  - blog
+- finish front end design
+- activate ssl
+-
