@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import AppNavBar from "./components/AppNavbar";
-import ShoppingList from "./components/ShoppingList";
+import Todo from "./components/Todo";
 import ItemModal from "./components/ItemModal";
 import Blog from "./components/Blog";
 
@@ -20,12 +20,10 @@ class App extends Component {
           <div className="App">
             <AppNavBar />
             <Container>
-              <ItemModal />
-              <ShoppingList />
               <br/>
               <Route path="/blog" component={Blog} />
               <Route path="/todo" component={ItemModal} />
-              <Route path="/todo" component={ShoppingList} />
+              <Route path="/todo" component={Todo} />
             </Container>
           </div>
         </Router>
