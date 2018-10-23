@@ -3,6 +3,8 @@ import AppNavBar from "./components/AppNavbar";
 import Todo from "./components/Todo";
 import ItemModal from "./components/ItemModal";
 import Blog from "./components/Blog";
+import Contact from "./components/Contact";
+import Hockey from "./components/Hockey";
 
 import { Container } from "reactstrap";
 import { Provider } from "react-redux";
@@ -21,6 +23,8 @@ class App extends Component {
             <AppNavBar />
             <Container>
               <br/>
+              <Route path="/contact" component={Contact} />
+              <Route path="/hockey" component={Hockey} />
               <Route path="/blog" component={Blog} />
               <Route path="/todo" component={ItemModal} />
               <Route path="/todo" component={Todo} />
