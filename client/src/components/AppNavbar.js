@@ -34,7 +34,7 @@ class AppNavbar extends Component {
                   <NavLink href="/contact/">contact</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/hockey/">hockey</NavLink>
+                  <NavLink href="/chat/">chat</NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink href="/blog/">blog</NavLink>

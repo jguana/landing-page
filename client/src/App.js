@@ -4,7 +4,7 @@ import Todo from "./components/Todo";
 import ItemModal from "./components/ItemModal";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
-import Hockey from "./components/Hockey";
+import Chat from "./components/Chat";
 
 import { Container } from "reactstrap";
 import { Provider } from "react-redux";
@@ -24,7 +24,7 @@ class App extends Component {
             <Container>
               <br/>
               <Route path="/contact" component={Contact} />
-              <Route path="/hockey" component={Hockey} />
+              <Route path="/chat" component={Chat} />
               <Route path="/blog" component={Blog} />
               <Route path="/todo" component={ItemModal} />
               <Route path="/todo" component={Todo} />
