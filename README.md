@@ -13,15 +13,17 @@
   - improve layout
   - real-time updates
 - portfolio & resume
-  - replace github link to full pdf versions of resume
-  - add github link in a novel way
+
+  - add component
+    - add github link in a novel way
+
 - hockey
+  - add component
   - /u/gimjon
   - post game analysis
 
 ## todo-misc
 
-- improve design & typography
 - activate ssl
 - etc
 - using markdown for blog posts?
