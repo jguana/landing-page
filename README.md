@@ -2,7 +2,9 @@
 
 ## todo-core
 
-- contact page
+- route "/"
+- contact
+  - ?
 - chat
   - socket.io
 - blog
