@@ -11,6 +11,7 @@
   - /u/gimjon
   - post game analysis
 - blog
+  - implement responsive layout
   - thoughts about life
   - job hunt in Vancouver
 
