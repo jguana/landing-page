@@ -1,12 +1,19 @@
 # John's Landing Page
 
-## todo
-- finish routing
-  - about
-  - todo
-  - portfolio & resume
-  - hockey
-  - blog
-- finish front end design
+## todo-core
+
+- about page
+- todo
+  - improve layout
+  - real-time updates
+- portfolio & resume
+- hockey
+  - /u/gimjon
+  - post game analysis
+- blog
+  - thoughts about life
+  - job hunt in Vancouver
+
+## todo-misc
 - activate ssl
--
+- etc
