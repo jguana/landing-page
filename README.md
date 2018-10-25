@@ -27,5 +27,4 @@
 ## todo-misc
 
 - activate ssl
-- etc
-- using markdown for blog posts?
+- implement markdown parser
