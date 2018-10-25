@@ -19,7 +19,6 @@ class Blog extends Component {
           montes, nascetur ridiculus mus.
         </p>
 
-        <p>Duis a turpis sed lacus dapibus elementum sed eu lectus.</p>
       </div>
     );
   }
