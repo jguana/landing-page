@@ -6,7 +6,7 @@ class Blog extends Component {
       fontSize: "8vw"
     };
     const p = {
-      fontSize: "3vw"
+      fontSize: "2.6vw"
     };
     return (
       <div>
