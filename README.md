@@ -1,4 +1,7 @@
-# John's Landing Page
+# landing-page
+
+## Technologies used
+- MERN stack (mongoDB, express, react, node)
 
 ## todo
 
