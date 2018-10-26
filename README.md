@@ -1,6 +1,6 @@
 # landing-page
 
-## Technologies used
+## technologies used
 - MERN stack (mongoDB, express, react, node)
 
 ## todo
