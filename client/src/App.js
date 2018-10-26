@@ -5,6 +5,7 @@ import ItemModal from "./components/ItemModal";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Chat from "./components/Chat";
+import Home from "./components/Home";
 
 import { Container } from "reactstrap";
 import { Provider } from "react-redux";
@@ -22,7 +23,8 @@ class App extends Component {
           <div className="App">
             <AppNavBar />
             <Container>
-              <br/>
+              <br />
+              <Route exact path="/" component={Home} />
               <Route path="/contact" component={Contact} />
               <Route path="/chat" component={Chat} />
               <Route path="/blog" component={Blog} />
