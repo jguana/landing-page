@@ -2,27 +2,27 @@
 
 ## todo-core
 
-- route "/"
-- contact
-  - ?
-- chat
-  - socket.io
-- blog
-  - implement responsive layout
-  - thoughts about life
-  - job hunt in Vancouver
-- todo
-  - improve layout
-  - real-time updates
-- portfolio & resume
+- routing
 
-  - add component
+  - route "/"
+  - contact
+    - ?
+  - chat
+    - socket.io
+  - blog
+    - sidebar
+      - implement responsive layout
+      - thoughts about life
+      - job hunt in Vancouver
+  - todo
+    - improve layout
+    - real-time updates
+  - portfolio & resume
+    - add component
     - add github link in a novel way
-
-- hockey
-  - add component
-  - /u/gimjon
-  - post game analysis
+  - hockey
+    - add component
+    - post game analysis
 
 ## todo-misc
 
