@@ -1,6 +1,6 @@
 # John's Landing Page
 
-## todo-core
+## todo
 
 - routing
 
@@ -24,7 +24,5 @@
     - add component
     - post game analysis
 
-## todo-misc
-
-- activate ssl
-- implement markdown parser
+* activate ssl
+* implement markdown parser
