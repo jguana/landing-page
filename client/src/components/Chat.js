@@ -4,7 +4,7 @@ class Chat extends Component {
   render() {
     return (
       <div>
-        <h2>Chaaaaaat socket.io</h2>
+        <h2>chat component</h2>
       </div>
     );
   }
