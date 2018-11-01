@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Container, Col, Row } from "reactstrap";
+import styles from "../App.css";
 
 class Home extends Component {
   render() {
@@ -7,7 +8,7 @@ class Home extends Component {
       <Container>
         <Row>
           <Col>
-            <p>home component</p>
+            <p className={styles.p}>home component</p>
           </Col>
           <Col>
             <p>idk.</p>
