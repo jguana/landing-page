@@ -23,6 +23,8 @@ class Contact extends Component {
               hendrerit laoreet augue nec molestie. Cum sociis natoque penatibus
               et magnis dis parturient montes, nascetur ridiculus mus.
             </p>
+            </Col>
+            <Col>
             <p>
               Cras facilisis urna ornare ex volutpat, et convallis erat
               elementum. Ut aliquam, ipsum vitae gravida suscipit, metus dui
