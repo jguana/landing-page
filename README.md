@@ -5,6 +5,7 @@
 
 ## todo
 
+- landscape iphone breaks 
 - routing
 
   - route "/"
