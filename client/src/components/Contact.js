@@ -1,89 +1,37 @@
 import React, { Component } from "react";
-import { Container, Col, Row } from "reactstrap";
+import { Nav, NavItem, NavLink, Container, Col, Row } from "reactstrap";
 
 class Contact extends Component {
   render() {
     return (
-      <Container>
-        <Row>
-          <Col>
-            <h2>Contact</h2>
-            <p>
-              Cras facilisis urna ornare ex volutpat, et convallis erat
-              elementum. Ut aliquam, ipsum vitae gravida suscipit, metus dui
-              bibendum est, eget rhoncus nibh metus nec massa. Maecenas
-              hendrerit laoreet augue nec molestie. Cum sociis natoque penatibus
-              et magnis dis parturient montes, nascetur ridiculus mus.
-            </p>
-
-            <p>
-              Cras facilisis urna ornare ex volutpat, et convallis erat
-              elementum. Ut aliquam, ipsum vitae gravida suscipit, metus dui
-              bibendum est, eget rhoncus nibh metus nec massa. Maecenas
-              hendrerit laoreet augue nec molestie. Cum sociis natoque penatibus
-              et magnis dis parturient montes, nascetur ridiculus mus.
-            </p>
-            </Col>
-            <Col>
-            <p>
-              Cras facilisis urna ornare ex volutpat, et convallis erat
-              elementum. Ut aliquam, ipsum vitae gravida suscipit, metus dui
-              bibendum est, eget rhoncus nibh metus nec massa. Maecenas
-              hendrerit laoreet augue nec molestie. Cum sociis natoque penatibus
-              et magnis dis parturient montes, nascetur ridiculus mus.
-            </p>
-            <p>
-              Cras facilisis urna ornare ex volutpat, et convallis erat
-              elementum. Ut aliquam, ipsum vitae gravida suscipit, metus dui
-              bibendum est, eget rhoncus nibh metus nec massa. Maecenas
-              hendrerit laoreet augue nec molestie. Cum sociis natoque penatibus
-              et magnis dis parturient montes, nascetur ridiculus mus.
-            </p>
-            <p>
-              Cras facilisis urna ornare ex volutpat, et convallis erat
-              elementum. Ut aliquam, ipsum vitae gravida suscipit, metus dui
-              bibendum est, eget rhoncus nibh metus nec massa. Maecenas
-              hendrerit laoreet augue nec molestie. Cum sociis natoque penatibus
-              et magnis dis parturient montes, nascetur ridiculus mus.
-            </p>
-            <p>
-              Cras facilisis urna ornare ex volutpat, et convallis erat
-              elementum. Ut aliquam, ipsum vitae gravida suscipit, metus dui
-              bibendum est, eget rhoncus nibh metus nec massa. Maecenas
-              hendrerit laoreet augue nec molestie. Cum sociis natoque penatibus
-              et magnis dis parturient montes, nascetur ridiculus mus.
-            </p>
-            <p>
-              Cras facilisis urna ornare ex volutpat, et convallis erat
-              elementum. Ut aliquam, ipsum vitae gravida suscipit, metus dui
-              bibendum est, eget rhoncus nibh metus nec massa. Maecenas
-              hendrerit laoreet augue nec molestie. Cum sociis natoque penatibus
-              et magnis dis parturient montes, nascetur ridiculus mus.
-            </p>
-            <p>
-              Cras facilisis urna ornare ex volutpat, et convallis erat
-              elementum. Ut aliquam, ipsum vitae gravida suscipit, metus dui
-              bibendum est, eget rhoncus nibh metus nec massa. Maecenas
-              hendrerit laoreet augue nec molestie. Cum sociis natoque penatibus
-              et magnis dis parturient montes, nascetur ridiculus mus.
-            </p>
-            <p>
-              Cras facilisis urna ornare ex volutpat, et convallis erat
-              elementum. Ut aliquam, ipsum vitae gravida suscipit, metus dui
-              bibendum est, eget rhoncus nibh metus nec massa. Maecenas
-              hendrerit laoreet augue nec molestie. Cum sociis natoque penatibus
-              et magnis dis parturient montes, nascetur ridiculus mus.
-            </p>
-            <p>
-              Cras facilisis urna ornare ex volutpat, et convallis erat
-              elementum. Ut aliquam, ipsum vitae gravida suscipit, metus dui
-              bibendum est, eget rhoncus nibh metus nec massa. Maecenas
-              hendrerit laoreet augue nec molestie. Cum sociis natoque penatibus
-              et magnis dis parturient montes, nascetur ridiculus mus.
-            </p>
-          </Col>
-        </Row>
-      </Container>
+      <div>
+        <h2>John Kim</h2>
+        <p>
+          I’m a private educator seeking exciting new challenges in the software
+          industry. My experience in education - working personally with over 50
+          different students - has helped me analyze and hone my learning
+          technique. I’m tech-savvy, always curious and a quick learner. The
+          projects that I’ve built over the past two months demonstrate my
+          current understanding of software.
+        </p>
+        <Nav vertical>
+          <NavItem>
+            <NavLink href="/contact/">contact</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="/chat/">chat</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="/blog/">blog</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="/todo/">todo</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="https://github.com/jguana">github</NavLink>
+          </NavItem>
+        </Nav>
+      </div>
     );
   }
 }
