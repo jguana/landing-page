@@ -25,11 +25,10 @@ class App extends Component {
             <Media query="(max-width: 575px)">
               {matches =>
                 matches ? (
-                  <div>
+                  <div className="mobile">
                     <AppNavBar />
                     <Container>
                       <p>The document is less than 600px wide.</p>
-
                       <Route exact path="/" component={Home} />
                       <Route path="/contact" component={Contact} />
                       <Route path="/chat" component={Chat} />
@@ -39,13 +38,13 @@ class App extends Component {
                     </Container>
                   </div>
                 ) : (
-                  <div>
+                  <div className="desktop">
                     <Container>
                       <Row>
-                        <Col md={3}>
+                        <Col md={4}>
                           <Route path="/" component={Contact} />
                         </Col>
-                        <Col md={9}>
+                        <Col md={8}>
                           <Route exact path="/" component={Home} />
                           <Route path="/chat" component={Chat} />
                           <Route path="/blog" component={Blog} />

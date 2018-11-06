@@ -3,10 +3,20 @@ import { Nav, NavItem, NavLink, Container, Col, Row } from "reactstrap";
 
 class Contact extends Component {
   render() {
+    const title = {
+      paddingTop: "80px"
+    };
+    const desc = {};
+
     return (
       <div>
-        <h2>John Kim</h2>
-        <p>
+        <img
+          src={"https://avatars1.githubusercontent.com/u/34145926?s=460&v=4"}
+          height={"200px"}
+          width={"200px"}
+        />
+        <h2 style={title}>John Kim</h2>
+        <p style={desc}>
           I’m a private educator seeking exciting new challenges in the software
           industry. My experience in education - working personally with over 50
           different students - has helped me analyze and hone my learning

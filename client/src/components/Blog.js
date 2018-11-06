@@ -8,6 +8,7 @@ class Blog extends Component {
     const p = {
       fontSize: "2.6vw"
     };
+
     return (
       <div>
         <h2 style={h2}>HELLO</h2>
@@ -17,8 +18,19 @@ class Blog extends Component {
           rhoncus nibh metus nec massa. Maecenas hendrerit laoreet augue nec
           molestie. Cum sociis natoque penatibus et magnis dis parturient
           montes, nascetur ridiculus mus.
-        </p>
 
+          Cras facilisis urna ornare ex volutpat, et convallis erat elementum.
+          Ut aliquam, ipsum vitae gravida suscipit, metus dui bibendum est, eget
+          rhoncus nibh metus nec massa. Maecenas hendrerit laoreet augue nec
+          molestie. Cum sociis natoque penatibus et magnis dis parturient
+          montes, nascetur ridiculus mus.
+
+          Cras facilisis urna ornare ex volutpat, et convallis erat elementum.
+          Ut aliquam, ipsum vitae gravida suscipit, metus dui bibendum est, eget
+          rhoncus nibh metus nec massa. Maecenas hendrerit laoreet augue nec
+          molestie. Cum sociis natoque penatibus et magnis dis parturient
+          montes, nascetur ridiculus mus.
+        </p>
       </div>
     );
   }
