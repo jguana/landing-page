@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Nav, NavItem, NavLink, Container, Col, Row } from "reactstrap";
+import { Nav, NavItem, NavLink, Container, Col, Row, Media } from "reactstrap";
 
 class Contact extends Component {
   render() {
@@ -7,18 +7,18 @@ class Contact extends Component {
       paddingTop: "80px"
     };
     const desc = {};
+    const avatarStyle = {};
 
     return (
       <div>
         <img
+          styles={avatarStyle}
           src={"https://avatars1.githubusercontent.com/u/34145926?s=460&v=4"}
-          height={"200px"}
-          width={"200px"}
         />
         <h2 style={title}>John Kim</h2>
         <p style={desc}>
-          Private tutor seeking exciting new challenges in the software
-          industry. 
+          Vancouver based private tutor seeking exciting new challenges in the
+          software industry.
         </p>
         <Nav vertical>
           <NavItem>
