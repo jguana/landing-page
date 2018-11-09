@@ -1,11 +1,12 @@
 # landing-page
 
-## technologies used
+## technologies
 
 - MERN stack (mongoDB, express, react, node)
 
-## todo
-
+## wip
+- markdown
+- sticky components
 - contact
   - ?
 - chat
@@ -24,6 +25,3 @@
 - hockey
   - add component
   - post game analysis
-
-* activate ssl
-* implement markdown parser
