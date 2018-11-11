@@ -6,10 +6,10 @@
 
 ## wip
 - markdown
-- sticky sidebar
 - image rendering
-- contact
-  -
+- navigate
+  - mobile: AppNavBar
+  - desktop: sidebar
 - chat
   - socket.io
 - blog

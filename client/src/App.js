@@ -3,7 +3,7 @@ import AppNavBar from "./components/AppNavbar";
 import Todo from "./components/Todo";
 import ItemModal from "./components/ItemModal";
 import Blog from "./components/Blog";
-import Contact from "./components/Contact";
+import Navigate from "./components/Navigate";
 import Chat from "./components/Chat";
 import Home from "./components/Home";
 
@@ -30,7 +30,7 @@ class App extends Component {
                     <Container>
                       <p>The document is less than 600px wide.</p>
                       <Route exact path="/" component={Home} />
-                      <Route path="/contact" component={Contact} />
+                      <Route path="/navigate" component={Navigate} />
                       <Route path="/chat" component={Chat} />
                       <Route path="/blog" component={Blog} />
                       <Route path="/todo" component={ItemModal} />
@@ -42,7 +42,7 @@ class App extends Component {
                     <Container>
                       <Row>
                         <Col md={4}>
-                          <Route path="/" component={Contact} />
+                          <Route path="/" component={Navigate} />
                         </Col>
                         <Col md={8}>
                           <Route exact path="/" component={Home} />

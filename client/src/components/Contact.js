@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Nav, NavItem, NavLink, Container, Col, Row, Media } from "reactstrap";
 
-class Contact extends Component {
+class Navigate extends Component {
   render() {
     const title = {
       paddingTop: "80px"
@@ -22,7 +22,7 @@ class Contact extends Component {
         </p>
         <Nav vertical>
           <NavItem>
-            <NavLink href="/contact/">contact</NavLink>
+            <NavLink href="/navigate/">navigate</NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="/chat/">chat</NavLink>
@@ -42,4 +42,4 @@ class Contact extends Component {
   }
 }
 
-export default Contact;
+export default Navigate;
