@@ -6,22 +6,28 @@
 
 ## wip
 - markdown
-- sticky components
+- sticky sidebar
+- image rendering
 - contact
-  - ?
+  -
 - chat
   - socket.io
 - blog
-  - sidebar
+  - inline css
+  - Blog objects
+    - admin?
+  - sticky sidebar
     - implement responsive layout
     - thoughts about life
     - job hunt in Vancouver
 - todo
-  - improve layout
-  - real-time updates
+  - modify layout using App.css
+  - real-time updates as items are modified
+
+## ideas
+
 - portfolio & resume
   - add component
-  - add github link in a novel way
 - hockey
   - add component
   - post game analysis
