@@ -4,15 +4,14 @@ import { Nav, NavItem, NavLink, Container, Col, Row, Media } from "reactstrap";
 class Navigate extends Component {
   render() {
     const title = {
-      paddingTop: "80px"
+      paddingTop: "40px"
     };
     const desc = {};
-    const avatarStyle = {};
 
+    // todo: style image
     return (
       <div>
         <img
-          styles={avatarStyle}
           src={"https://avatars1.githubusercontent.com/u/34145926?s=460&v=4"}
         />
         <h2 style={title}>John Kim</h2>

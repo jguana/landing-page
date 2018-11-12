@@ -8,10 +8,10 @@ class Home extends Component {
       <Container>
         <Row>
           <Col>
-            <p className={styles.header}>home component</p>
+            <p className={styles.header}>John Kim</p>
           </Col>
           <Col>
-            <p className={styles.header}>idk.</p>
+            <p className={styles.header}>I don't know.</p>
           </Col>
         </Row>
       </Container>
