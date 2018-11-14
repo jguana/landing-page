@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import { Nav, NavItem, NavLink, Container, Col, Row, Media } from "reactstrap";
+import { Nav, NavItem, NavLink } from "reactstrap";
 
 class Navigate extends Component {
   render() {
     const title = {
-      paddingTop: "40px"
+      paddingTop: "20px"
     };
     const desc = {};
 
