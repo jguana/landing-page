@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import { Container } from "reactstrap";
+import MarkdownRenderer from "react-markdown-renderer";
 import styles from "../App.css";
 
 class Home extends Component {
   render() {
+    const markdown = "# I am testing \n## Markdown";
     return (
       <Container>
-            <p className={styles.header}>John Kim</p>
-            <p className={styles.header}>I don't know.</p>
+        <MarkdownRenderer markdown={markdown} />
       </Container>
     );
   }
