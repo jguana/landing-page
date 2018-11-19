@@ -13,6 +13,7 @@ class Navigate extends Component {
       <div>
         <img
           src={"https://avatars1.githubusercontent.com/u/34145926?s=460&v=4"}
+          alt=""
         />
         <h2 style={title}>John Kim</h2>
         <p style={desc}>
