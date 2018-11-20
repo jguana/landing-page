@@ -1,6 +1,28 @@
-.loading {
-  background: transparent url('http://thinkfuture.com/wp-content/uploads/2013/10/loading_spinner.gif') center no-repeat;
+.desktop {
+  display: flex;
+  justify-content: center;
 }
+
+.content,
+.sidebar {
+  border: 3px solid black;
+  padding: 15px;
+}
+
+.sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  width: 25%;
+  height: 20vh;
+  top: 1%;
+}
+
+.content {
+  width: 60%;
+  min-height: 100px;
+  overflow: hidden;
+}
+
 .remove-btn {
   margin-right: 0.5rem;
 }
@@ -21,11 +43,4 @@
 .fade-exit-active {
   opacity: 0.01;
   transition: opacity 1000ms ease-in;
-}
-
-@media screen and (max-width: 500px) {
-}
-
-:local(.header) {
-  font-size: 24px;
 }

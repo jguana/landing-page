@@ -8,7 +8,6 @@ import Chat from "./components/Chat";
 import Home from "./components/Home";
 
 import Media from "react-media";
-import { Container, Col, Row } from "reactstrap";
 import { Provider } from "react-redux";
 import store from "./store";
 import { BrowserRouter as Router, Route } from "react-router-dom";
@@ -27,32 +26,26 @@ class App extends Component {
                 matches ? (
                   <div className="mobile">
                     <AppNavBar />
-                    <Container>
-                      <p>The document is less than 600px wide.</p>
+                    <p>The document is less than 600px wide.</p>
+                    <Route exact path="/" component={Home} />
+                    <Route path="/navigate" component={Navigate} />
+                    <Route path="/chat" component={Chat} />
+                    <Route path="/blog" component={Blog} />
+                    <Route path="/todo" component={ItemModal} />
+                    <Route path="/todo" component={Todo} />
+                  </div>
+                ) : (
+                  <div className="desktop">
+                    <div class="sidebar">
+                      <Route path="/" component={Navigate} />
+                    </div>
+                    <div class="content">
                       <Route exact path="/" component={Home} />
-                      <Route path="/navigate" component={Navigate} />
                       <Route path="/chat" component={Chat} />
                       <Route path="/blog" component={Blog} />
                       <Route path="/todo" component={ItemModal} />
                       <Route path="/todo" component={Todo} />
-                    </Container>
-                  </div>
-                ) : (
-                  <div className="desktop">
-                    <Container>
-                      <Row>
-                        <Col md={4}>
-                          <Route path="/" component={Navigate} />
-                        </Col>
-                        <Col md={8}>
-                          <Route exact path="/" component={Home} />
-                          <Route path="/chat" component={Chat} />
-                          <Route path="/blog" component={Blog} />
-                          <Route path="/todo" component={ItemModal} />
-                          <Route path="/todo" component={Todo} />
-                        </Col>
-                      </Row>
-                    </Container>
+                    </div>
                   </div>
                 )
               }

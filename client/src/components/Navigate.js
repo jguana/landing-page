@@ -8,13 +8,8 @@ class Navigate extends Component {
     };
     const desc = {};
 
-    // todo: style image
     return (
       <div>
-        <img
-          src={"https://avatars1.githubusercontent.com/u/34145926?s=460&v=4"}
-          alt=""
-        />
         <h2 style={title}>John Kim</h2>
         <p style={desc}>
           Vancouver based private tutor seeking exciting new challenges in the
@@ -22,7 +17,7 @@ class Navigate extends Component {
         </p>
         <Nav vertical>
           <NavItem>
-            <NavLink href="/navigate/">navigate</NavLink>
+            <NavLink href="/">home</NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="/chat/">chat</NavLink>
