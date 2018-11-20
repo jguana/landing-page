@@ -1,25 +1,27 @@
 import React, { Component } from "react";
-import Media from "react-media";
 
 class Chat extends Component {
   render() {
     return (
       <div>
-        <Media query="(max-width: 599px)">
-          {matches =>
-            matches ? (
-              <p>The document is less than 600px wide.</p>
-            ) : (
-              <p>The document is at least 600px wide.</p>
-            )
-          }
-        </Media>
-
-        {/* Will only render if conditions are met  */}
-        <Media
-          query="(max-width: 599px)"
-          render={() => <p>The document is less than 600px wide.</p>}
-        />
+        <h1>My chat application using socket.io</h1>
+        <p>is still a work in progress.</p>
+        <p>
+          Cras facilisis urna ornare ex volutpat, et convallis erat elementum.
+          Ut aliquam, ipsum vitae gravida suscipit, metus dui bibendum est, eget
+          rhoncus nibh metus nec massa. Maecenas hendrerit laoreet augue nec
+          molestie. Cum sociis natoque penatibus et magnis dis parturient
+          montes, nascetur ridiculus mus. Cras facilisis urna ornare ex
+          volutpat, et convallis erat elementum. Ut aliquam, ipsum vitae gravida
+          suscipit, metus dui bibendum est, eget rhoncus nibh metus nec massa.
+          Maecenas hendrerit laoreet augue nec molestie. Cum sociis natoque
+          penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+          Cras facilisis urna ornare ex volutpat, et convallis erat elementum.
+          Ut aliquam, ipsum vitae gravida suscipit, metus dui bibendum est, eget
+          rhoncus nibh metus nec massa. Maecenas hendrerit laoreet augue nec
+          molestie. Cum sociis natoque penatibus et magnis dis parturient
+          montes, nascetur ridiculus mus.
+        </p>
       </div>
     );
   }

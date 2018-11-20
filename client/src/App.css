@@ -1,3 +1,6 @@
+.App {
+  font-family: "Archivo", sans-serif;
+}
 .desktop {
   display: flex;
   justify-content: center;
@@ -14,12 +17,12 @@
   position: sticky;
   width: 25%;
   height: 20vh;
-  top: 1%;
+  top: 55%;
 }
 
 .content {
-  width: 60%;
-  min-height: 100px;
+  width: 50%;
+  min-height: 100vh;
   overflow: hidden;
 }
 

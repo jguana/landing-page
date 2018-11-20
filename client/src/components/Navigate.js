@@ -4,9 +4,10 @@ import { Nav, NavItem, NavLink } from "reactstrap";
 class Navigate extends Component {
   render() {
     const title = {
-      paddingTop: "20px"
     };
-    const desc = {};
+    const desc = {
+      fontSize: "1rem"
+    };
 
     return (
       <div>
