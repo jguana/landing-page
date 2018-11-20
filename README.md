@@ -11,21 +11,15 @@
 - portfolio
   - socket.io
 - blog
-  - inline css
-  - Blog objects
-    - admin?
-  - sticky sidebar
-    - implement responsive layout
-    - thoughts about life
-    - job hunt in Vancouver
+  - Blog objects (CRUD)
+  - write two blog posts
 - todo
-  - modify layout using App.css
+  - prettify layout
+  - word cloud?
   - real-time updates as items are modified
 
 ## ideas
 
-- portfolio & resume
-  - add component
-- hockey
-  - add component
+- Hockey.js
   - post game analysis
+    - gif support
