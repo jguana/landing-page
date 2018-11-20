@@ -21,7 +21,7 @@ class Navigate extends Component {
             <NavLink href="/">home</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/chat/">chat</NavLink>
+            <NavLink href="/portfolio/">portfolio</NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="/blog/">blog</NavLink>

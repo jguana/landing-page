@@ -4,7 +4,7 @@ import Todo from "./components/Todo";
 import ItemModal from "./components/ItemModal";
 import Blog from "./components/Blog";
 import Navigate from "./components/Navigate";
-import Chat from "./components/Chat";
+import Portfolio from "./components/Portfolio";
 import Home from "./components/Home";
 
 import Media from "react-media";
@@ -29,7 +29,7 @@ class App extends Component {
                     <p>The document is less than 600px wide.</p>
                     <Route exact path="/" component={Home} />
                     <Route path="/navigate" component={Navigate} />
-                    <Route path="/chat" component={Chat} />
+                    <Route path="/portfolio" component={Portfolio} />
                     <Route path="/blog" component={Blog} />
                     <Route path="/todo" component={ItemModal} />
                     <Route path="/todo" component={Todo} />
@@ -41,7 +41,7 @@ class App extends Component {
                     </div>
                     <div class="content">
                       <Route exact path="/" component={Home} />
-                      <Route path="/chat" component={Chat} />
+                      <Route path="/portfolio" component={Portfolio} />
                       <Route path="/blog" component={Blog} />
                       <Route path="/todo" component={ItemModal} />
                       <Route path="/todo" component={Todo} />

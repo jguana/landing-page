@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 
-class Chat extends Component {
+class Portfolio extends Component {
   render() {
     return (
       <div>
-        <h1>My chat application using socket.io</h1>
+        <h1>My portfolio application using socket.io</h1>
         <p>is still a work in progress.</p>
         <p>
           Cras facilisis urna ornare ex volutpat, et convallis erat elementum.
@@ -27,4 +27,4 @@ class Chat extends Component {
   }
 }
 
-export default Chat;
+export default Portfolio;

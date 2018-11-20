@@ -10,7 +10,7 @@
 - navigate
   - mobile: AppNavBar
   - desktop: sidebar
-- chat
+- portfolio
   - socket.io
 - blog
   - inline css
