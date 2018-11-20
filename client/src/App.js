@@ -3,7 +3,7 @@ import AppNavBar from "./components/AppNavbar";
 import Todo from "./components/Todo";
 import ItemModal from "./components/ItemModal";
 import Blog from "./components/Blog";
-import Navigate from "./components/Navigate";
+import Sidebar from "./components/Sidebar";
 import Portfolio from "./components/Portfolio";
 import Home from "./components/Home";
 
@@ -28,7 +28,7 @@ class App extends Component {
                     <AppNavBar />
                     <p>The document is less than 600px wide.</p>
                     <Route exact path="/" component={Home} />
-                    <Route path="/navigate" component={Navigate} />
+                    <Route path="/navigate" component={Sidebar} />
                     <Route path="/portfolio" component={Portfolio} />
                     <Route path="/blog" component={Blog} />
                     <Route path="/todo" component={ItemModal} />
@@ -37,7 +37,7 @@ class App extends Component {
                 ) : (
                   <div className="desktop">
                     <div class="sidebar">
-                      <Route path="/" component={Navigate} />
+                      <Route path="/" component={Sidebar} />
                     </div>
                     <div class="content">
                       <Route exact path="/" component={Home} />

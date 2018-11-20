@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Nav, NavItem, NavLink } from "reactstrap";
 
-class Navigate extends Component {
+class Sidebar extends Component {
   render() {
     const title = {
     };
@@ -38,4 +38,4 @@ class Navigate extends Component {
   }
 }
 
-export default Navigate;
+export default Sidebar;

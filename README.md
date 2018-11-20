@@ -7,9 +7,7 @@
 ## wip
 - markdown
 - image rendering
-- navigate
-  - mobile: AppNavBar
-  - desktop: sidebar
+- fix sidebar
 - portfolio
   - socket.io
 - blog
