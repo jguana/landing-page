@@ -13,7 +13,7 @@ class Sidebar extends Component {
       <div>
         <h2 style={title}>John Kim</h2>
         <p style={desc}>
-          Vancouver based private tutor seeking exciting new challenges in the
+          Vancouver-based private tutor seeking exciting new challenges in the
           software industry.
         </p>
         <Nav vertical>
