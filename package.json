@@ -13,7 +13,6 @@
     "nodemon": "^1.18.4",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
-    "react-markdown-renderer": "^1.4.0",
     "react-media": "^1.8.0",
     "react-router-dom": "^4.3.1",
     "react-sticky": "^6.0.3",
